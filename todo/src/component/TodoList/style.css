@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color:rgb(206, 206, 206);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    text-align: center;
+    margin-top: -7rem;
+}
+.container figure img{
+    width :8rem;
+    height: 6rem;
+}
+.container figure figcaption{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(2, 1, 1);
+    margin: 20px 0px;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+}
+.additem{
+    background-color: white;
+    padding: 0px 40px;
+    border-radius: 7px;
+}
+.additem:hover,
+.additem:focus{
+    
+}
+.showitem{
+    margin-top: 20px;
+    /* margin: 10px  auto 0px auto; */
+    
+  
+}
+.eachitem{
+    background-color: rgb(0, 0, 0);
+    border: none;
+  width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 10px 30px;
+    padding: 0px 30px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.add-btn{
+    margin-left: 15px;
+}
+.fa-trash-alt, .fa-edit {
+  font-size: 17px;
+}
+.eachitem:hover .fa-trash-alt {
+    color: rgb(214, 47, 61);
+  }
+  .eachitem:hover .fa-edit{
+    color: rgb(100, 214, 47);
+  }
+  .eachitem:hover{
+    background-color: white;
+    color:rgb(11, 11, 12);
+  }
+  .btn{
+    padding: 10px 25px;
+    border: none;
+  }
+ 
+  .btn:hover{
+    background-color: rgb(3, 3, 3);
+    border: none;
+    color: white;
+  }
+  
+  .eachItem:hover .fa-edit {
+    color: rgb(100, 214, 47);
+  }
